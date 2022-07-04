@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.5c1aacaf.js",
-    "static/media/logo.svg": "/static/media/logo.614d71d1db9fdf3ca2355f05ed3b0142.svg",
-    "static/media/total.svg": "/static/media/total.e90c2d1e4d0cdd036cc577afd9f496eb.svg",
-    "index.html": "/index.html",
-    "static/media/outcome.svg": "/static/media/outcome.6eb96d3079777422e5bd5deaa688a46e.svg",
-    "static/media/income.svg": "/static/media/income.d58effe2f7ca5d17f64c8350e5fa2fe2.svg",
-    "static/media/close.svg": "/static/media/close.f62862c6571367515ce17c7b4e77a1fc.svg",
-    "static/media/chevronRight.svg": "/static/media/chevronRight.b27c783b409fb1613644166bc694df53.svg",
-    "static/media/chevronLeft.svg": "/static/media/chevronLeft.03a9dc01956e3ed18d0afab910a1efd9.svg",
-    "main.5c1aacaf.js.map": "/static/js/main.5c1aacaf.js.map"
+    "main.js": "/DT-Money/static/js/main.78eb6a26.js",
+    "static/media/logo.svg": "/DT-Money/static/media/logo.614d71d1db9fdf3ca2355f05ed3b0142.svg",
+    "static/media/total.svg": "/DT-Money/static/media/total.e90c2d1e4d0cdd036cc577afd9f496eb.svg",
+    "index.html": "/DT-Money/index.html",
+    "static/media/outcome.svg": "/DT-Money/static/media/outcome.6eb96d3079777422e5bd5deaa688a46e.svg",
+    "static/media/income.svg": "/DT-Money/static/media/income.d58effe2f7ca5d17f64c8350e5fa2fe2.svg",
+    "static/media/close.svg": "/DT-Money/static/media/close.f62862c6571367515ce17c7b4e77a1fc.svg",
+    "static/media/chevronRight.svg": "/DT-Money/static/media/chevronRight.b27c783b409fb1613644166bc694df53.svg",
+    "static/media/chevronLeft.svg": "/DT-Money/static/media/chevronLeft.03a9dc01956e3ed18d0afab910a1efd9.svg",
+    "main.78eb6a26.js.map": "/DT-Money/static/js/main.78eb6a26.js.map"
   },
   "entrypoints": [
-    "static/js/main.5c1aacaf.js"
+    "static/js/main.78eb6a26.js"
   ]
 }
