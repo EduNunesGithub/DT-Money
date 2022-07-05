@@ -50,9 +50,13 @@ export const TransactionsList = () => {
     return (
         <TransactionsListContainer>
             <ListTitle>
-                <h2>Listagem</h2>
+                {transactions?.length !== 0 && (
+                    <>
+                        <h2>Listagem</h2>
 
-                <span>4 itens</span>
+                        <span>{transactions?.length + " itens"}</span>
+                    </>
+                )}
             </ListTitle>
 
             <ListContainer>

@@ -49,38 +49,40 @@ export const TransactionsTable = () => {
                 buttonSize={48}
                 scrollAmount={1}
             >
-                <Table>
-                    <thead>
-                        <tr className="table-header-row">
-                            <th className="column-1"><span>Título</span></th>
-                            <th className="column-2"><span>Preço</span></th>
-                            <th className="column-3"><span>Categoria</span></th>
-                            <th className="column-4"><span>Data</span></th>
-                        </tr>
-                    </thead>
+                {transactions?.length !== 0 && (
+                    <Table>
+                        <thead>
+                            <tr className="table-header-row">
+                                <th className="column-1"><span>Título</span></th>
+                                <th className="column-2"><span>Preço</span></th>
+                                <th className="column-3"><span>Categoria</span></th>
+                                <th className="column-4"><span>Data</span></th>
+                            </tr>
+                        </thead>
 
-                    <tbody>
-                        {transactions?.map(({
-                            amount,
-                            category,
-                            createdAt,
-                            id,
-                            title,
-                            type
-                        }, index) => {
-                            return (
-                                <TableRowComponent
-                                    amount={amount}
-                                    category={category}
-                                    createdAt={createdAt}
-                                    key={id}
-                                    title={title}
-                                    type={type}
-                                />
-                            );
-                        })}
-                    </tbody>
-                </Table>
+                        <tbody>
+                            {transactions?.map(({
+                                amount,
+                                category,
+                                createdAt,
+                                id,
+                                title,
+                                type
+                            }, index) => {
+                                return (
+                                    <TableRowComponent
+                                        amount={amount}
+                                        category={category}
+                                        createdAt={createdAt}
+                                        key={id}
+                                        title={title}
+                                        type={type}
+                                    />
+                                );
+                            })}
+                        </tbody>
+                    </Table>
+                )}
             </OverflowScrollabe>
         </TransactionsTableContainer>
     );

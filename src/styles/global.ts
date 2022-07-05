@@ -44,6 +44,7 @@ export const GlobalStyle = createGlobalStyle`
 
         max-width: calc(100vw - ${pxToRem(32)});
         max-height: calc(100vh - ${pxToRem(32)});
+        max-height: calc(-webkit-fill-available - ${pxToRem(32)});
 
         @media (max-width: 532.5px) {
             position: relative;
@@ -80,6 +81,7 @@ export const GlobalStyle = createGlobalStyle`
 
             width: 100vw;
             height: 100vh;
+            height: -webkit-fill-available;
 
             .mobile-overlay-fix {
                 background: rgba(0, 0, 0, 0.7);
@@ -92,6 +94,7 @@ export const GlobalStyle = createGlobalStyle`
 
                 width: 100vw;
                 height: 100vh;
+                height: -webkit-fill-available;
             }
         }
     }
@@ -103,6 +106,7 @@ export const GlobalStyle = createGlobalStyle`
 
         @media (max-width: 532.5px) {
             top: 100vh;
+            top: -webkit-fill-available;
         }
     }
 
@@ -119,6 +123,7 @@ export const GlobalStyle = createGlobalStyle`
 
         @media (max-width: 532.5px) {
             top: 100vh;
+            top: -webkit-fill-available;
         }
     }
 
