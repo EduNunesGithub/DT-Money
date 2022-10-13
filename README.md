@@ -1,4 +1,4 @@
-## Github Explorer
+## dt money
 
 Página feita durante aula do [Ignite - Rocketseat](https://www.rocketseat.com.br/ignite) que lista todas as finanças do usuário
 
